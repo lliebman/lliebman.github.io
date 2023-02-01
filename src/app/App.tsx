@@ -6,7 +6,7 @@ import '../styles/components/app.scss'
 
 function App() {
   return (
-    <div className="App">
+    <div className="o-app">
      <ExperiencePage/>
      <HobbiesPage/>
      <MiniProjectPage/>
