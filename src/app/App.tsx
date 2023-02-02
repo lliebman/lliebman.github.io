@@ -1,15 +1,19 @@
 import React from 'react';
-import {ExperiencePage} from './components/pages/ExperiencePage'
-import {HobbiesPage} from './components/pages/HobbiesPage'
-import {MiniProjectPage} from './components/pages/MiniProjectPage'
+import {Nav} from './components/Nav'
+import {Experience} from './components/pages/Experience'
+import {Hobbies} from './components/pages/Hobbies'
+import {MiniProject} from './components/pages/MiniProject'
+import {Intro} from './components/pages/Intro'
 import '../styles/components/app.scss'
 
 function App() {
   return (
     <div className="o-app">
-     <ExperiencePage/>
-     <HobbiesPage/>
-     <MiniProjectPage/>
+      <Nav/>
+     <Intro/>
+     <Experience/>
+     <Hobbies/>
+     <MiniProject/>
     </div>
   );
 }

@@ -1,9 +1,8 @@
 .o-app {
-  color: #fff;
+  color: black;
 }
 
-html {
-  background-image: url("../../../assets/background.png");
-  background-size: 450px;
-  opacity: 0.3;
+html, body {
+  margin:0;
+  padding:0;
 }

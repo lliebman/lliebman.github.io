@@ -1,10 +1,14 @@
 import * as React from 'react'
+import GithubSVG from '../../assets/github.svg'
+import EMailSVG from '../../assets/email.svg'
+import LinkedinSVG from '../../assets/linkedin.svg'
+import '../../styles/components/nav.scss'
 
 export {Nav}
 
 function Nav() {
   return (
-    <nav>
+    <nav className="c-nav">
       {leftside()}
       {rightside()}
     </nav>)
@@ -12,36 +16,36 @@ function Nav() {
 
 function leftside() {
   return (
-    <span>
-
+    <span className="c-nav--left">
+      Lillian Liebman
     </span>
   )
 }
 
 function rightside() {
   return (
-    <span>
-      <a>
-      {/*  linkedin*/}
-      <img src={linkedin} alt="linkedin" height="40px" />
+    <span className="c-nav--right">
+      <a className="c-navItem">
+      {/*  <div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>*/}
+      <img src={LinkedinSVG} alt="linkedin" height="50px" />
     </a>
 
-      <a
+      <a className="c-navItem"
         href="https://github.com/lliebman"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={github} alt="github" height="40px" />
+        <img src={GithubSVG} alt="github" height="50px" />
       </a>
 
-      {/*reume*/}
+      {/*resume*/}
 
-      <a
-        href="mailto: lillian.liebman@gmail.com?subject="
+      <a className="c-navItem"
+        href="mailto: lillian.liebman@gmail.com?subject=Hey there!"
         target="_blank"
         rel="noopener noreferrer"
       >
-      {/*  email pic*/}
+        <img src={EMailSVG} alt="email" height="50px" />
       </a></span>
   )
 }

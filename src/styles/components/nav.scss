@@ -1,0 +1,28 @@
+.c-nav {
+  display: flex;
+  box-sizing: border-box;
+  position: fixed;
+
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 16px 63px 16px 63px;
+
+  background-color: white;
+  z-index: 1000;
+}
+
+.c-nav--right {
+  display: flex;
+  justify-content: left;
+}
+
+.c-nav--left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-navItem {
+  padding-left: 16px;
+}
