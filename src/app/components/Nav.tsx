@@ -27,25 +27,23 @@ function rightside() {
     <span className="c-nav--right">
       <a className="c-navItem">
       {/*  <div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>*/}
-      <img src={LinkedinSVG} alt="linkedin" height="50px" />
+      <img src={LinkedinSVG} alt="linkedin" height="50px"/>
     </a>
 
       <a className="c-navItem"
         href="https://github.com/lliebman"
         target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={GithubSVG} alt="github" height="50px" />
+        rel="noopener noreferrer">
+        <img src={GithubSVG} alt="github" height="50px"/>
       </a>
 
-      {/*resume*/}
+      <a className="c-navItem__test"/>
 
       <a className="c-navItem"
         href="mailto: lillian.liebman@gmail.com?subject=Hey there!"
         target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={EMailSVG} alt="email" height="50px" />
+        rel="noopener noreferrer">
+        <img src={EMailSVG} alt="email" height="50px"/>
       </a></span>
   )
 }

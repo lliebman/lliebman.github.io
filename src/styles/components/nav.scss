@@ -24,5 +24,9 @@
 }
 
 .c-navItem {
-  padding-left: 64px;
+  margin-left: 64px;
+
+  &:hover {
+    filter: invert(33%) sepia(75%) saturate(2655%) hue-rotate(341deg) brightness(95%) contrast(98%);
+  }
 }
