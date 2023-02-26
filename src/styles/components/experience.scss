@@ -1,0 +1,36 @@
+.c-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  overflow: auto;
+
+  background-color: #f8f9f4;
+}
+
+.c-experience--title {
+  display: flex;
+  justify-content: center;
+
+  font-size: 64px;
+}
+
+.c-experience--item {
+  display: flex;
+  width: -webkit-fill-available; //todo: dont like this
+
+  margin: 64px * 2;
+}
+
+.c-experience--item__summary {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+.c-experience--item__summary--bullets {
+  padding-top: 5px;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: bolder;
+}
